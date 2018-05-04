@@ -62,9 +62,13 @@ header {
   padding: 8px;
 }
 
-.framedata tr:nth-child(even){background-color: #f2f2f2;}
+.framedata tr:nth-child(even){
+  background-color: #f2f2f2;
+}
 
-.framedata tr:hover {background-color: #ddd;}
+.framedata tr:hover {
+  background-color: #8ebfd6;
+}
 
 .framedata th {
   padding-top: 12px;
@@ -81,6 +85,10 @@ header {
 
 #unique {
   color: blue;
-  font-weight: bold;
+  font-weight: normal;
 }
 
+#bad {
+  color: red;
+  font-weight: bold;
+}
